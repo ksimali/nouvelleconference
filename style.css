@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-html{
-
+html, body{
+    margin: 0;
+    padding: 0;
 }
 body{
-    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 .wrapper{
@@ -14,11 +14,10 @@ body{
 header{
     display: flex; /*create 2 colonnes on header*/
     justify-content: space-between; /* créer un espace entre les elements du header*/
-    align-items: center;/*centrer verticalement */
     background-color: #003153;
 }
 .logo{
-    font-size: 3em;
+    font-size: 4em;
 }
 .logo a{
     text-decoration: none;
@@ -42,3 +41,4 @@ nav ul li a{
     color: white;
     
 }
+/**/
