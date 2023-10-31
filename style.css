@@ -7,6 +7,38 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .wrapper{
-    max-width: 1200px;
-    margin: 0, auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* partie header */
+header{
+    display: flex; /*create 2 colonnes on header*/
+    justify-content: space-between; /* créer un espace entre les elements du header*/
+    align-items: center;/*centrer verticalement */
+    background-color: #003153;
+}
+.logo{
+    font-size: 3em;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    margin: 4em; /* ajout marge plus d'espace autour de la barre de navigation*/
+}
+nav ul{
+    list-style-type: none;/*enlever les points devant les listes*/
+    display:flex; /* aligner la liste de navigation */
+    gap: 2em;
+    margin: 0;
+}
+nav p{
+    text-align: right; /* Place la date tout a droite*/
+    color: #5D8AA8; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
 }
