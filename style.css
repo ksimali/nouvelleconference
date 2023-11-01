@@ -50,6 +50,17 @@ header{
     color: white;
 }
 
+/****************************** Partie main ******************************/
+
+    /*** Partie Call to action ***/
+.calltoaction{
+    text-align: center;
+    height: 250px;
+    background-color: #003153;
+    padding: 10px;
+}
+.calltoaction 
+
 /****************************** Partie footer ******************************/
 footer{
     display: flex;
