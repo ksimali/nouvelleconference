@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 html, body{
     margin: 0;
-    padding: 0;
 }
 body{
     font-family: 'Roboto', sans-serif;
+    
 }
 .wrapper{
     max-width: 100%;
     margin: 0 auto;
 }
-/* partie header */
+/**** partie header ****/
 header{
     display: flex; /*create 2 colonnes on header*/
     justify-content: space-between; /* créer un espace entre les elements du header*/
@@ -41,4 +41,29 @@ nav ul li a{
     color: white;
     
 }
-/**/
+/****Partie footer****/
+footer{
+    display: flex;
+    align-self:flex-end;
+    justify-content: space-between;
+    background-color: #003153;
+    height: 50px;
+    padding: 10px 10px;
+}
+footer a{
+    color: #5D8AA8;
+    align-self: flex-end;
+    text-decoration: none; 
+
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    gap: 2em;
+    margin: 0;
+    align-self: flex-end; /* mets la liste en bas de son élément parent footer*/
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
