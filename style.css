@@ -3,22 +3,19 @@
 html, body{
     margin: 0;
     padding: 0;
+   
 }
 body{
     font-family: 'Roboto', sans-serif;
 }
-.container{
-    max-width: 100%;
 
-}
-/**** partie header ****/
+/****************************** Partie header ******************************/
 header{
     display: flex; /*create 2 colonnes on header*/
     justify-content: space-between; /* créer un espace entre les elements du header*/
     background-color: #003153;
     padding: 10px 10px;
     height: 120px;
-    border: 1px solid #333333;
 }
 .logo{
     font-size: 3.5em;
@@ -52,7 +49,8 @@ header{
     text-decoration: none;
     color: white;
 }
-/****Partie footer****/
+
+/****************************** Partie footer ******************************/
 footer{
     display: flex;
     align-self:flex-end;
