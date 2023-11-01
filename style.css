@@ -1,45 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 html, body{
     margin: 0;
+    padding: 0;
 }
 body{
     font-family: 'Roboto', sans-serif;
-    
 }
-.wrapper{
+.container{
     max-width: 100%;
-    margin: 0 auto;
+
 }
 /**** partie header ****/
 header{
     display: flex; /*create 2 colonnes on header*/
     justify-content: space-between; /* créer un espace entre les elements du header*/
     background-color: #003153;
+    padding: 10px 10px;
+    height: 150px;
+    border: 1px solid #333333;
 }
 .logo{
     font-size: 4em;
+    display: flex;
+    align-self: flex-end;
 }
 .logo a{
     text-decoration: none;
     color: white;
 }
-nav{
-    margin: 4em; /* ajout marge plus d'espace autour de la barre de navigation*/
+.navbloc{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding-bottom: 10px;
 }
-nav ul{
+.navbloc p{
+    text-align: right; /* Place la date tout a droite*/
+    color: #5D8AA8;
+}
+
+.navbloc nav ul{
     list-style-type: none;/*enlever les points devant les listes*/
     display:flex; /* aligner la liste de navigation */
     gap: 2em;
     margin: 0;
 }
-nav p{
-    text-align: right; /* Place la date tout a droite*/
-    color: #5D8AA8; 
-}
-nav ul li a{
+
+.navbloc nav ul li a{
     text-decoration: none;
     color: white;
-    
 }
 /****Partie footer****/
 footer{
@@ -49,6 +59,7 @@ footer{
     background-color: #003153;
     height: 50px;
     padding: 10px 10px;
+
 }
 footer a{
     color: #5D8AA8;
