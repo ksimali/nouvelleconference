@@ -17,13 +17,14 @@ header{
     justify-content: space-between; /* créer un espace entre les elements du header*/
     background-color: #003153;
     padding: 10px 10px;
-    height: 150px;
+    height: 120px;
     border: 1px solid #333333;
 }
 .logo{
-    font-size: 4em;
+    font-size: 3.5em;
     display: flex;
     align-self: flex-end;
+    max-width: 400px;
 }
 .logo a{
     text-decoration: none;
