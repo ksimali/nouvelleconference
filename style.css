@@ -80,24 +80,24 @@ button{
 /****************************** Partie footer ******************************/
 footer{
     display: flex;
-    align-self:flex-end;
     justify-content: space-between;
     height: 50px;
     padding: 10px 10px;
-
+}
+small{
+    align-self: center;
 }
 footer a{
     color: #678E86;
-    align-self: flex-end;
     text-decoration: none; 
-
+    
 }
 footer ul{
     list-style-type: none;
     display: flex;
     gap: 2em;
     margin: 0;
-    align-self: flex-end; /* mets la liste en bas de son élément parent footer*/
+
 }
 footer ul li a{
     color: white;
