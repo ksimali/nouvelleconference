@@ -20,9 +20,9 @@ header{
     height: 120px;
 }
 .logo{
-    font-size: 3em;
+    font-size: 3.5em;
     display: flex;
-    align-self: flex-end;
+    align-self: center;
     max-width: 400px;
 }
 .logo a{
