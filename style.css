@@ -64,6 +64,18 @@ header{
 .calltoaction h1{
     color: #678E86;
 }
+.calltoaction p{
+    line-height: 2em;
+    color: white;
+}
+button{
+    background-color: #1F2937;
+    border: 1px white solid;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    color: white;
+}
 
 /****************************** Partie footer ******************************/
 footer{
