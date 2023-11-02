@@ -8,12 +8,14 @@ html, body{
 body{
     font-family: 'Roboto', sans-serif;
 }
+header, footer, .calltoaction{
+    background-color: #003153;
+}
 
 /****************************** Partie header ******************************/
 header{
     display: flex; /*create 2 colonnes on header*/
     justify-content: space-between; /* créer un espace entre les elements du header*/
-    background-color: #003153;
     padding: 10px 10px;
     height: 120px;
 }
@@ -35,7 +37,7 @@ header{
 }
 .navbloc p{
     text-align: right; /* Place la date tout a droite*/
-    color: #5D8AA8;
+    color: #678E86;
 }
 
 .navbloc nav ul{
@@ -56,23 +58,23 @@ header{
 .calltoaction{
     text-align: center;
     height: 250px;
-    background-color: #003153;
     padding: 10px;
 }
-.calltoaction 
+.calltoaction h1{
+    color: #678E86;
+}
 
 /****************************** Partie footer ******************************/
 footer{
     display: flex;
     align-self:flex-end;
     justify-content: space-between;
-    background-color: #003153;
     height: 50px;
     padding: 10px 10px;
 
 }
 footer a{
-    color: #5D8AA8;
+    color: #678E86;
     align-self: flex-end;
     text-decoration: none; 
 
