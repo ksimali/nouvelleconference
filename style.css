@@ -56,9 +56,11 @@ header{
 
     /*** Partie Call to action ***/
 .calltoaction{
+    margin: auto;
     text-align: center;
     height: 300px;
     padding: 10px;
+    align-item;
 }
 .calltoaction h1{
     color: #678E86;
@@ -76,8 +78,7 @@ header{
     color: white;
 }
     /*** Partie Infos ***/
-.infos{
-}
+
 .boxes{
     display: flex;
     justify-content: space-around;
