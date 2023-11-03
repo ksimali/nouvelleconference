@@ -12,14 +12,19 @@ header, footer, .calltoaction{
 }
 
 /****************************** Partie header ******************************/
+.wrap-header{
+        width: 900px;
+        display: flex; /*create 2 colonnes on header*/
+        justify-content: space-between; /* créer un espace entre les elements du header*/
+        margin: auto;
+}
+
 header{
-    display: flex; /*create 2 colonnes on header*/
-    justify-content: space-between; /* créer un espace entre les elements du header*/
     padding: 10px 10px;
     height: 120px;
 }
 .logo{
-    font-size: 3.5em;
+    font-size: 3em;
     display: flex;
     align-self: center;
     max-width: 400px;
@@ -60,7 +65,11 @@ header{
     text-align: center;
     height: 300px;
     padding: 10px;
-    align-item;
+}
+.wrap-call{
+    width: 900px;
+    margin: auto;
+
 }
 .calltoaction h1{
     color: #678E86;
@@ -80,8 +89,10 @@ header{
     /*** Partie Infos ***/
 
 .boxes{
+    width: 900px;
     display: flex;
     justify-content: space-around;
+    margin: auto;
     padding: 25px;
     gap: 32px;
     height: 420px;
@@ -102,14 +113,18 @@ header{
 
 /****************************** Partie footer ******************************/
 footer{
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-    padding: 10px 10px;
+    height: 60px;
+    padding: 0px 10px;
+
 }
-small{
-    align-self: center;
+.wrap-footer{
+        width: 900px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding-top: 20px;
 }
+
 footer a{
     color: #678E86;
     text-decoration: none; 
