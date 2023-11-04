@@ -18,7 +18,7 @@ header, footer, .calltoaction{
 .wrap-header{
         display: flex; /*create 2 colonnes on header*/
         justify-content: space-between; /* créer un espace entre les elements du header*/
-}
+    }
 
 header{
     padding: 10px 10px;
@@ -64,8 +64,9 @@ header{
 .calltoaction{
     margin: auto;
     text-align: center;
-    height: 300px;
-    padding: 10px;
+    height: 250px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 .calltoaction h1{
     color: #678E86;
