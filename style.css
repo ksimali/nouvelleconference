@@ -2,7 +2,9 @@
 
 html, body{
     margin: 0;
-    padding: 0;   
+    padding: 0;
+    font-size: 14px;
+    height: 100%;   
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -18,7 +20,7 @@ header, footer, .calltoaction{
 .wrap-header{
         display: flex; /*create 2 colonnes on header*/
         justify-content: space-between; /* créer un espace entre les elements du header*/
-    }
+}
 
 header{
     padding: 10px 10px;
@@ -34,6 +36,9 @@ header{
     text-decoration: none;
     color: white;
     line-height: 1em;
+}
+.logo a:hover{
+    color:#678E86;
 }
 .navbloc{
     display: flex;
@@ -57,6 +62,9 @@ header{
     text-decoration: none;
     color: white;
 }
+.navbloc nav ul li a:hover{
+    color:#678E86;
+}
 
 /****************************** Partie main ******************************/
 
@@ -75,13 +83,18 @@ header{
     line-height: 2em;
     color: white;
 }
-.calltoaction button{
-    background-color: #1F2937;
+
+.wrap-call > a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 30px;
     border: 1px white solid;
     border-radius: 5px;
-    height: 40px;
-    width: 250px;
-    color: white;
+    font-size: 0.8em;
+}
+.wrap-call > a:hover{
+    background-color: #678E86;
+    font-weight: bold;
 }
     /*** Partie Infos ***/
 
@@ -101,7 +114,7 @@ header{
 }
 .contentImage{
     width: 200px;
-    height: 200px;
+    height: 150px;
     border-radius: 8px;
     background-image: linear-gradient(180deg, #1F2937, rgba(0, 0, 0, 0));
 }
@@ -123,6 +136,9 @@ footer a{
     text-decoration: none; 
     
 }
+footer a:hover{
+    color: white;
+}
 footer ul{
     list-style-type: none;
     display: flex;
@@ -133,4 +149,7 @@ footer ul{
 footer ul li a{
     color: white;
     text-decoration: none;
+}
+footer ul li a:hover{
+    color:#678E86;
 }
