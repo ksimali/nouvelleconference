@@ -10,13 +10,14 @@ body{
 header, footer, .calltoaction{
     background-color: #1F2937;
 }
-
+.wrap-header,.wrap-call,.boxes,.wrap-footer{
+    width: 900px;
+    margin: auto;
+}
 /****************************** Partie header ******************************/
 .wrap-header{
-        width: 900px;
         display: flex; /*create 2 colonnes on header*/
         justify-content: space-between; /* créer un espace entre les elements du header*/
-        margin: auto;
 }
 
 header{
@@ -66,11 +67,6 @@ header{
     height: 300px;
     padding: 10px;
 }
-.wrap-call{
-    width: 900px;
-    margin: auto;
-
-}
 .calltoaction h1{
     color: #678E86;
 }
@@ -89,10 +85,8 @@ header{
     /*** Partie Infos ***/
 
 .boxes{
-    width: 900px;
     display: flex;
     justify-content: space-around;
-    margin: auto;
     padding: 25px;
     gap: 32px;
     height: 420px;
@@ -118,10 +112,8 @@ footer{
 
 }
 .wrap-footer{
-        width: 900px;
         display: flex;
         justify-content: space-between;
-        margin: auto;
         padding-top: 20px;
 }
 
