@@ -1,8 +1,47 @@
 html, body{
     margin: 0;
     padding: 0;
+    font-size: 14px;
+    height: 100%;
 }
-body{
-    background-color: #5F9EA0;
 
+.header-inscription {
+    text-align: center;
+    background-color: #B4E0BB;
+    height: 120px;
+    color: gray;
+    padding: 20px;
+}
+
+.main-inscription {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 20px;
+   color: gray;
+}
+.section2{
+    width: 35%;
+}
+.section1{
+    width: 65%;
+}
+.title1, .title2 , .label , .title3{
+     color: #678E86;
+}
+.title1{
+    margin-top: 0px;
+}
+.article1{
+    margin-right:  20px ;
+}
+.acheter-button{
+    color:white ;
+    background-color: #688B83;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
 }
