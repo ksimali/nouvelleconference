@@ -9,6 +9,7 @@ html, body{
 body{
     font-family: 'Roboto', sans-serif;
 }
+/****************************** CSS Homepage ******************************/
 header, footer, .calltoaction{
     background-color: #1F2937;
 }
@@ -16,7 +17,7 @@ header, footer, .calltoaction{
     width: 900px;
     margin: auto;
 }
-/****************************** Partie header ******************************/
+    /****************************** Partie header ******************************/
 .wrap-header{
         display: flex; /*create 2 colonnes on header*/
         justify-content: space-between; /* créer un espace entre les elements du header*/
@@ -66,9 +67,9 @@ header{
     color:#678E86;
 }
 
-/****************************** Partie main ******************************/
+    /****************************** Partie main ******************************/
 
-    /*** Partie Call to action ***/
+        /*** Partie Call to action ***/
 .calltoaction{
     margin: auto;
     text-align: center;
@@ -96,7 +97,7 @@ header{
     background-color: #678E86;
     font-weight: bold;
 }
-    /*** Partie Infos ***/
+        /*** Partie Infos ***/
 
 .boxes{
     display: flex;
