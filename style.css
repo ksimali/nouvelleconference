@@ -209,6 +209,8 @@ footer ul li a:hover{
 .main-programme {
     font-size: 13px;
     color: gray;
+    width: 900px;
+    margin: auto;
 }
 
 .table-programme {
@@ -282,11 +284,14 @@ width: 42.5%;
 }
 .conferencier{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 900px;
+    margin: auto;
 }
 .article{
-    width: 800px;
+    width: 700px;
     padding: 10px;
+    margin: auto;
 }
 .article > h3, .article > p{
     color: grey;
