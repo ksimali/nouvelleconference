@@ -258,6 +258,45 @@ width: 42.5%;
     height: 25px;
 }
 /****************************** CSS conferenciers pages ******************************/
-main{
-    height: 100%;
+
+.content-speaker{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.content-speaker > img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: 1px #678E86 solid;
+    border-top-left-radius: 50% 50%; 
+    border-top-right-radius: 50% 50%; 
+    border-bottom-right-radius: 50% 50%; 
+    border-bottom-left-radius: 50% 50%; 
+}
+.content-speaker > p{
+    text-align: center;
+}
+.conferencier{
+    display: flex;
+    justify-content: space-evenly;
+}
+.article{
+    width: 800px;
+    padding: 10px;
+}
+.article > h3, .article > p{
+    color: grey;
+}
+
+.speaker-name a{
+    text-decoration: none;
+    color: #678E86;
+    font-weight: bold;
+    padding: 5px;
+}
+.speaker-name a:hover{
+    background-color:#678E86;
+    color: white;
+    border-radius: 10px;
 }
