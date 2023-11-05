@@ -158,3 +158,99 @@ footer ul li a{
 footer ul li a:hover{
     color:#678E86;
 }
+
+.header-inscription, .header-programme {
+    text-align: center;
+    background-color: #B4E0BB;
+    height: 120px;
+    color: gray;
+    padding: 20px;
+}
+
+.main-inscription {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 20px;
+   color: gray;
+}
+.section2{
+    width: 35%;
+}
+.section1{
+    width: 65%;
+}
+.title1, .title2 , .label , .title3{
+     color: #678E86;
+}
+.title1{
+    margin-top: 0px;
+}
+.article1{
+    margin-right:  20px ;
+}
+.acheter-button{
+    color:white ;
+    background-color: #688B83;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.main-programme {
+    font-size: 13px;
+    color: gray;
+}
+
+.table-programme {
+    margin-top: 25px;
+    width: 100%;
+    padding: 25px;
+}
+.col1{
+    width: 15%;
+    text-align: right;
+    padding-right: 20px
+}
+.col2 , .col3{
+width: 42.5%;
+}
+
+.tab-title1, .tab-title2 {
+    color: #678E86;
+}
+
+.tab-title1 {
+    font-size: 18px;
+}
+
+.tab-title2 {
+    font-size: 15px;
+}
+
+.table-programme tr {
+    height: 25px;
+}
+
+#comment {
+    border-radius: 5px;
+    border-color: lightgrey;
+    width: auto;
+    height: 55px;
+}
+
+.input-inscription {
+    border-radius: 5px;
+    width: auto;
+    height: 20px;
+    border-color: lightgrey;
+}
+
+#places {
+    border-radius: 5px;
+    width: 35px;
+    height: 25px;
+}
