@@ -9,7 +9,7 @@ html, body{
 body{
     font-family: 'Roboto', sans-serif;
 }
-/****************************** CSS Homepage ******************************/
+/************************************** CSS Homepage *************************************/
 header, footer, .calltoaction{
     background-color: #1F2937;
 }
@@ -17,7 +17,7 @@ header, footer, .calltoaction{
     width: 900px;
     margin: auto;
 }
-    /****************************** Partie header ******************************/
+    /******************************  header section ******************************/
 .wrap-header{
         display: flex; /*create 2 colonnes on header*/
         justify-content: space-between; /* créer un espace entre les elements du header*/
@@ -67,9 +67,9 @@ header{
     color:#678E86;
 }
 
-    /****************************** Partie main ******************************/
+        /****************************** homepage main section ******************************/
 
-        /*** Partie Call to action ***/
+            /*** Call to action section ***/
 .calltoaction{
     margin: auto;
     text-align: center;
@@ -97,7 +97,7 @@ header{
     background-color: #678E86;
     font-weight: bold;
 }
-        /*** Partie Infos ***/
+            /***  Infos section  ***/
 
 .boxes{
     display: flex;
@@ -125,7 +125,7 @@ header{
     height: auto;
 }
 
-/****************************** Partie footer ******************************/
+        /****************************** footer section ******************************/
 footer{
     height: 60px;
     padding: 0px 10px;
@@ -159,21 +159,23 @@ footer ul li a{
 footer ul li a:hover{
     color:#678E86;
 }
+/****************************** CSS inscription, programme, conferenciers & venue pages ******************************/
 
-.header-inscription, .header-programme {
+.header-inscription, .header-programme, .header-conferenciers{
     text-align: center;
     background-color: #B4E0BB;
     height: 120px;
     color: gray;
     padding: 20px;
 }
-
+        /****************************** inscription page ******************************/
 .main-inscription {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin-left: 20px;
-   color: gray;
+    color: gray;
+    height: 100%;
 }
 .section2{
     width: 35%;
@@ -200,7 +202,7 @@ footer ul li a:hover{
     border-radius: 5px;
     border: none;
 }
-
+        /****************************** programme page ******************************/
 .main-programme {
     font-size: 13px;
     color: gray;
@@ -254,4 +256,8 @@ width: 42.5%;
     border-radius: 5px;
     width: 35px;
     height: 25px;
+}
+/****************************** CSS conferenciers pages ******************************/
+main{
+    height: 100%;
 }
