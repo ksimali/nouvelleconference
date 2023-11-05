@@ -173,9 +173,12 @@ footer ul li a:hover{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-left: 20px;
+
     color: gray;
     height: 100%;
+    width: 900px;
+    margin: auto;
+    padding-top: 100px;
 }
 .section2{
     width: 35%;
