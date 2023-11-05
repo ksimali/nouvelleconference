@@ -110,19 +110,26 @@ header{
     max-width: 200px;
     margin: auto;
 }
-.img-title{
+.img-title, .paragraph{
+    color: grey;
+}
+.img-subtitle{
     color: #678E86;
 }
 .contentImage{
     width: 200px;
     height: 150px;
-    border-radius: 8px;
-    background-image: linear-gradient(180deg, #1F2937, rgba(0, 0, 0, 0));
 }
 /* Faire ajuster l'image a son conteneur*/
-.contentImage > img{
+.contentImage > a img{
     width: 100%;
     height: auto;
+    border-radius: 8px;
+}
+/* images get bigger on hover*/
+.full:hover{  
+    width:210px;
+    height:160px;  
 }
 
         /****************************** footer section ******************************/
