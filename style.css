@@ -160,7 +160,7 @@ footer ul li a:hover{
     color:#678E86;
 }
 
-.header-inscription, .header-programme {
+.header-inscription, .header-programme, .header-venue {
     text-align: center;
     background-color: #B4E0BB;
     height: 120px;
@@ -254,4 +254,25 @@ width: 42.5%;
     border-radius: 5px;
     width: 35px;
     height: 25px;
+}
+
+.section-venue-1 {
+    width: 30%;
+}
+
+.section-venue-2 {
+    width: 65%;
+    margin-left: 5px;
+}
+
+.main-venue {
+    font-size: 13px;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+#carte {
+    height: 300px;
 }
