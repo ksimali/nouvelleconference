@@ -234,8 +234,17 @@ footer ul li a:hover{
 width: 42.5%;
 }
 
-.tab-title1, .tab-title2 {
+.tab-title1, .tab-title2 > a {
     color: #678E86;
+    font-weight: bold;
+}
+.tab-title2 > a {
+    text-decoration: none;
+}
+.tab-title2 > a:hover{
+    border-radius: 10px;
+    background-color: #678E86;
+    color: white;
 }
 
 .tab-title1 {
