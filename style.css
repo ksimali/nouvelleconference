@@ -168,7 +168,7 @@ footer ul li a:hover{
 }
 /****************************** CSS inscription, programme, conferenciers & venue pages ******************************/
 
-.header-inscription, .header-programme, .header-conferenciers{
+.header-inscription, .header-programme, .header-venue, .header-conferenciers {
     text-align: center;
     background-color: #B4E0BB;
     height: 120px;
@@ -315,3 +315,23 @@ width: 42.5%;
     color: white;
     border-radius: 10px;
 }
+
+.section-venue-1 {
+    width: 30%;
+}
+
+.section-venue-2 {
+    width: 65%;
+    margin-left: 5px;
+}
+
+.main-venue {
+    font-size: 13px;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+#carte {
+    height: 300px;
