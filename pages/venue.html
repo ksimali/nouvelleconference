@@ -9,10 +9,27 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 </head>
 <body>
-    <header class="header-venue">
+    <header>
+        <div class="wrap-header">
+            <div class="logo"><a href="/index.html">NOUVELLE CONFÉRENCE</a></div>
+            <div class="navbloc">
+                <p>24-25 mars 2023 - Montréal,QC</p>
+                <nav>
+                    <ul>
+                        <li><a href="/index.html">ACCUEIL</a></li>
+                        <li><a href="/pages/conferenciers.html">CONFÉRENCIERS</a></li>
+                        <li><a href="/pages/programme.html">PROGRAMME</a></li>
+                        <li><a href="/pages/venue.html">VENUE</a></li>
+                        <li><a href="/pages/inscription.html">INSCRIPTION</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="header-venue">
         <h1 class="title1">Venue</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </header>
+    </div>
     <main class="main-venue">
         <section class="section-venue-1">
             <article class="article-venue-1">
@@ -27,6 +44,20 @@
             </article>
         </section>
     </main>
+    <footer>
+        <div class="wrap-footer">
+            <small><a href="/index.html">&copy Nouvelle Conférence</a></small>
+            <small>
+                <ul>
+                    <li><a href="/index.html">Accueil</a></li>
+                    <li><a href="/pages/conferenciers.html">Conférenciers</a></li>
+                    <li><a href="/pages/programme.html">programme</a></li>
+                    <li><a href="/pages/venue.html">Venue</a></li>
+                    <li><a href="/pages/inscription.html">Inscription</a></li>
+                </ul> 
+            </small>      
+        </div>    
+    </footer>   
     <script>
         var carte = L.map('carte').setView([45.4837908188, -73.8689347203], 15);
       
