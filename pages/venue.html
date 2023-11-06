@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="/style.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venue</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 </head>
 <body>
-    
+    <header class="header-venue">
+        <h1 class="title1">Venue</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </header>
+    <main class="main-venue">
+        <section class="section-venue-1">
+            <article class="article-venue-1">
+                <h3 class="title3">Cegep Gerald-Godin</h3>
+                <p>15615, boulevard Gouin Ouest <br> Montreal (Quebec) H9H 5K8</p>
+                <a href="https://www.cgodin.qc.ca" target="_blank"><label class="label">cgodin.qc.ca</label></a>
+                <p>(514) 626-2666</p>
+            </article>
+        </section>
+        <section class="section-venue-2">
+            <article class="article-venue-2" id="carte">
+            </article>
+        </section>
+    </main>
+    <script>
+        var carte = L.map('carte').setView([45.4837908188, -73.8689347203], 15);
+      
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(carte);
+      
+        var adresseCoord = [45.4837908188, -73.8689347203];
+      
+        L.marker(adresseCoord).addTo(carte)
+          .bindPopup('Cegep Gerald-Godin')
+          .openPopup();
+      </script>
 </body>
 </html>
